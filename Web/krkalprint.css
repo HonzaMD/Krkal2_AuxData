@@ -1,0 +1,120 @@
+h1 {font-size:18pt}
+h2 {font-size:16pt}
+h3 {font-size:14pt}
+h4 {font-size:13pt}
+h5 {font-size:12pt}
+
+a{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #F1E7DD;
+  background-color: #9B8C9B;
+}
+
+a.im{
+  text-decoration: none;
+}
+a.im:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+p {text-align:justify;}
+
+table.center {margin-left:auto; margin-right:auto;}
+tr.thumb {background-color:#E1D7CD;}
+tr.thumblabel {background-color:#D1C7BD;}
+.center {text-align:center;}
+.left {text-align:left;}
+.right {text-align:right;}
+
+
+body
+{
+	color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	font-size:12pt;
+}
+	
+#container
+{
+}
+
+#top		
+{
+	display:none;
+}		
+
+
+#nav
+{
+	display:none;
+}
+
+
+#content
+{
+}
+		
+#footer
+{
+	display:none;
+}
+
+img {border:0}
+
+/* novinky */
+.news {
+	padding-bottom:15pt;
+	padding-top:5pt;
+	margin:0;
+}
+.news-ln1 {
+	font-weight:bold;
+	font-size:13pt;
+	padding-bottom:5pt;
+	padding-top:0;
+	margin:0;
+}
+
+.news-date {
+	color:#9B8C9B;
+	background-color:inherit;
+}
+
+.news-head {
+	color:#000;
+	background-color:inherit;
+}
+
+.news-msg {
+	color:#000;
+	background-color:inherit;
+	padding:0;
+	text-align:justify;
+}
+.news-autor {
+	text-align:right;
+	font-size:10pt;
+}
+
+li.download {
+	list-style-image:url(img/download.png);
+	list-style-position:inside;
+	margin:4px;
+}
+
+li.none {
+ 	list-style-type:none ;
+}
+
+tr.gameName {background-color:#9B8C9B; font-weight:bold;}
+tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
+.vecinav{display:none;}

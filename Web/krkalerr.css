@@ -1,0 +1,131 @@
+h1 {font-size:2em;}
+h2 {font-size:1.5em}
+
+a{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #F1E7DD;
+  background-color: #9B8C9B;
+}
+
+a.im{
+  text-decoration: none;
+}
+a.im:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+p {text-align:justify;}
+
+table.center {margin-left:auto; margin-right:auto;}
+tr.thumb {background-color:#E1D7CD;}
+.center {text-align:center;}
+.left {text-align:left;}
+.right {text-align:right;}
+
+
+body
+{
+	color:#000000;
+	background-color:#EEEEEE;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	margin:0px;
+	padding:0;
+	width:100%;
+	min-width:730px;
+	font-size:11px;
+}
+	
+#container
+{
+	margin: 10px;
+	background-color:#F1E7DD;
+	border: 3px solid #000;
+}
+
+#top		
+{
+	height:121px;
+	background-image: url(img/logospacer.png);
+	background-color:#9B8C9B;
+	border-bottom: 3px solid #000;
+}		
+
+#logo
+{
+	float:left;
+	width:627px;
+	height:121px;
+
+	background-image: url(img/krkal.jpg);
+}
+
+#logo2
+{
+	float: right;
+	position: relative;
+	
+	width:75px;
+	height:12px;
+	
+	top: 68px;
+	right: 10px;
+
+	font-size: 10px;
+	background-image: url(img/krkalorg.gif);
+}
+
+
+#content
+{
+	margin: 10px;
+	
+	min-height:400px;
+	height:400px;
+}
+div[id] #content
+{
+	height:auto;
+}
+		
+#footer
+{
+	clear: both;
+	padding-top:1px;
+	padding-left:5px;padding-right:5px;
+	background-color: #000;
+	color:#dbdbdb;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #dbdbdb;
+}
+#footer a:hover{
+  text-decoration: underline;
+  background-color: #000;
+  color: #dbdbdb;
+}
+
+#credit {
+  text-align:right;
+}
+
+#counter {
+  float:left;
+  text-align:center;
+  width:220px;
+}
+
+.msg{
+	margin-top:30px;
+	margin-bottom:30px;
+}

@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.krkal\.org
+RewriteRule (.*) http://krkal\.org/$1 [L,R=301]
+
+RewriteRule ^(en|cs)$ /$1/ [L,R=301]
+
+RewriteRule ^(en|cs)/download/(.*) /download/$1/$2 [L]
+RewriteRule ^(en|cs)/dl/(.*) /download/dl.php?lang=$1&fn=$2 [L]
+
+RewriteRule ^(en|cs)/$ /menu\.php\?lang=$1 [L]
+RewriteRule ^(en|cs)/nm_([^0-9]*)([0-9]*)\.html$ /nm/$2\.html\?lang=$1&p=$3 [L,QSA]
+RewriteRule ^(en|cs)/([^0-9]*)([0-9]*)\.html$ /menu\.php\?lang=$1&page=$2&p=$3 [L,QSA]

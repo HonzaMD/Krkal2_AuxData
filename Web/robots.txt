@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /download/
+Disallow: /cs/download/
+Disallow: /en/download/
+Disallow: /cs/dl/
+Disallow: /en/dl/

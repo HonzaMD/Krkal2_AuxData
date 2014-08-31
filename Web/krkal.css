@@ -1,0 +1,272 @@
+h1 {font-size:2em;}
+h2 {font-size:1.5em}
+h3 {font-size:1.17em}
+h4 {font-size:1em}
+h5 {font-size:.83em}
+h6 {font-size:.67em}
+
+a{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+  font-weight:bold;
+  color: #F1E7DD;
+  background-color: #9B8C9B;
+}
+
+a.im{
+  text-decoration: none;
+}
+a.im:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+p {text-align:justify;}
+
+table.center {margin-left:auto; margin-right:auto;}
+tr.thumb {background-color:#E1D7CD;}
+tr.thumblabel {background-color:#D1C7BD;}
+.center {text-align:center;}
+.left {text-align:left;}
+.right {text-align:right;}
+
+
+body
+{
+	color:#000000;
+	background-color:#EEEEEE;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	text-align:left;
+	margin:0px;
+	padding:0;
+	width:100%;
+	min-width:730px;
+	font-size:11px;
+}
+	
+#container
+{
+	margin: 10px;
+	background-color:#F1E7DD;
+	background-image: url(img/bg.gif);
+	background-repeat: repeat-y;
+	border: 3px solid #000;
+}
+
+#top		
+{
+	height:121px;
+	background-image: url(img/logospacer.png);
+	background-color:#9B8C9B;
+	border-bottom: 3px solid #000;
+}		
+
+#logo
+{
+	float:left;
+	width:627px;
+	height:121px;
+
+	background-image: url(img/krkal.jpg);
+}
+
+#logo2
+{
+	float: right;
+	position: relative;
+	
+	width:75px;
+	height:12px;
+	
+	top: 68px;
+	right: 10px;
+
+	font-size: 10px;
+	background-image: url(img/krkalorg.gif);
+}
+
+
+#nav
+{
+	float: left;
+	width: 220px;
+}
+
+#nav2
+{
+	margin: 10px;
+	overflow: hidden;
+}
+
+
+
+#content
+{
+	margin-left: 230px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	min-height:400px;
+	height:400px;
+}
+div[id] #content
+{
+	height:auto;
+}
+		
+#footer
+{
+	clear: both;
+	padding-top:1px;
+	padding-left:5px;padding-right:5px;
+	background-color: #000;
+	color:#dbdbdb;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #dbdbdb;
+}
+#footer a:hover{
+  text-decoration: underline;
+  background-color: #000;
+  color: #dbdbdb;
+}
+
+#credit {
+  text-align:right;
+}
+#counter {
+  float:left;
+  text-align:center;
+  width:220px;
+}
+#langselect{
+  text-align:center;
+  margin-top:20px; 
+  margin-bottom:10px;
+}
+
+#mmscreenshots{
+  text-align:center;
+  margin-top:20px; 
+  margin-bottom:10px;
+}
+
+img {border:0}
+
+
+.navcontainer ul
+{
+  font-weight:normal;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.navcontainer li { 
+	margin: 0 0 4px 0; 
+	padding: 1px;
+}
+
+.navcontainer2 ul
+{
+  font-weight:normal;
+}
+
+.navcontainer2 li { 
+	padding-left:10px;
+	margin: 3px 0 2px 0; 
+ 	list-style-type:none ;
+	background: transparent url(img/submenu.gif) no-repeat 0 3px;
+}
+
+.navbreak {
+  border-top: 1px solid #9B8C9B;
+  height: 2px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1px;
+}
+
+.navcontainer a
+{
+text-decoration: none;
+background-color: #F1E7DD;
+color: #000000;
+font-weight: normal;
+}
+
+.navcontainer2 a
+{
+color: #9B8C9B;
+}
+
+.navcontainer a:hover
+{
+text-decoration: none;
+background-color: #000000;
+color: #F1E7DD;
+}
+
+a.active
+{
+font-weight:bold;
+}
+
+/* novinky */
+.news {
+	padding-bottom:15px;
+	padding-top:5px;
+	margin:0;
+}
+.news-ln1 {
+	font-weight:bold;
+	font-size:12px;
+	padding-bottom:5px;
+	padding-top:0;
+	margin:0;
+}
+
+.news-date {
+	color:#9B8C9B;
+	background-color:inherit;
+}
+
+.news-head {
+	color:#000;
+	background-color:inherit;
+}
+
+.news-msg {
+	color:#000;
+	background-color:inherit;
+	padding:0;
+	text-align:justify;
+}
+.news-autor {
+	text-align:right;
+	font-size:9px;
+}
+
+li.download {
+	list-style-image:url(img/download.png);
+	list-style-position:inside;
+	margin:4px;
+}
+
+li.none {
+ 	list-style-type:none ;
+}
+
+tr.gameName {background-color:#9B8C9B; font-weight:bold;}
+tr.gameDesc {background-color:#E1D7CD; text-align:justify;}
+.vecinav{text-align:center;}
